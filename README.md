@@ -1,5 +1,7 @@
 # Product web page
 
+![Product page](src/images/stackline_product_page.png)
+
 This project is a product display web page created using React to produce the view and Redux to manage the state. 
 
 A JSON file consists the data source which is populated on the web page.
@@ -39,3 +41,4 @@ In the project directory, you can run:
 
 Runs the app in the development mode.\
 Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+
