@@ -1,0 +1,120 @@
+.ProductsContainer {
+  display: flex;
+  flex-direction: row;
+  padding: 50px 20px 20px 20px;
+}
+
+.SideBar {
+  width: 350px;
+  padding: 10px;
+  margin-right: 20px;
+  background-color: #fff;
+  display: flex;
+  flex-direction: column;
+  border-radius: 15px;
+  box-shadow: 0px 0px 3px 1px rgba(0, 0, 0, 0.05);
+
+  &__ProductInfo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    img {
+      width: 100px;
+      height: auto;
+    }
+
+    &__Title {
+      font: bold 20px Arial Black, serif;
+      margin: 10px;
+    }
+
+    &__Subtitle {
+      font-size: 15px;
+      margin: 0px 10px 10px 10px;
+    }
+  }
+
+  &__Tags {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 10px;
+
+    span {
+      padding: 5px 15px;
+      margin: 2px 5px 2px 0px;
+      border: 1px solid #eee;
+      border-radius: 5px;
+    }
+  }
+
+  hr {
+    background-color: #ededed;
+    height: 1px;
+    width: 100%;
+    border: none;
+  }
+}
+
+.ProductSalesGraph {
+  width: 100%;
+  height: 400px;
+  padding: 10px;
+  background-color: #fff;
+  display: flex;
+  flex-direction: column;
+  border-radius: 15px;
+  box-shadow: 0px 0px 3px 1px rgba(0, 0, 0, 0.05);
+  margin-bottom: 20px;
+
+  p {
+    margin: 10px 15px;
+    font-size: 20px;
+    color: #9e9e9e;
+  }
+}
+
+.ProductDetailsContainer {
+  display: flex;
+  flex-direction: column;
+  width: calc(100% - 350px);
+  margin-right: 20px;
+}
+
+.ProductDetails {
+  width: 100%;
+  height: 300px;
+  padding: 10px;
+  background-color: #fff;
+  display: flex;
+  flex-direction: column;
+  border-radius: 15px;
+  box-shadow: 0px 0px 3px 1px rgba(0, 0, 0, 0.05);
+
+  &__TableContainer {
+    height: 100%;
+    overflow: scroll;
+
+    &__Table {
+      border-collapse: collapse;
+      width: 100%;
+
+      td {
+        color: #9e9e9e;
+        border-bottom: 1px solid #f5f5f5;
+        text-align: center;
+        padding: 15px 0px;
+      }
+
+      &__Header {
+
+        th {
+          font-weight: normal;
+          border-bottom: 1px solid #f5f5f5;
+          padding: 20px 10px;
+          text-transform: uppercase;
+        }
+      }
+    }
+  }
+}
